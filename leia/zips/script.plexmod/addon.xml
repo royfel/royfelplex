@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.plexmod"
+       name="ROYFEL Plex"
+       version="0.1.7a3+10ce10a"
+       provider-name="ROYFEL Plex">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0"/>
+        <import addon="script.module.requests" version="2.22.0" />
+        <import addon="script.module.six" version="1.13.0" />
+        <import addon="script.module.kodi-six" version="0.1.3" />
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.python.pluginsource" library="plugin.py">
+        <provides>executable</provides>
+    </extension>
+	<extension point="xbmc.ui.screensaver" library="screensaver.py"/>
+    <extension point="xbmc.service" library="service.py" start="startup"></extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">ROYFEL Plex for Kodi</summary>
+        <summary lang="de">ROYFEL Plex für Kodi</summary>
+        <summary lang="hu">ROYFEL Plex for Kodi</summary>
+        <summary lang="it">ROYFEL Plex per Kodi</summary>
+        <summary lang="ru">ROYFEL Plex for Kodi</summary>
+        <description lang="en">Official ROYFEL Plex for Kodi add-on</description>
+        <description lang="de">Offizielles ROYFEL Plex für Kodi Addon</description>
+        <description lang="hu">Hivatalos ROYFEL Plex for Kodi add-on</description>
+        <description lang="it">Addon ufficiale ROYFEL Plex per Kodi</description>
+        <description lang="fr">Add-on Officiel ROYFEL Plex pour Kodi</description>
+        <description lang="ru">Официальный аддон ROYFEL Plex for Kodi</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>https://forums.royfel.com</forum>
+        <website>https://www.royfel.com</website>
+        <source>https://royfel.com/kodi/royfelplex</source>
+        <platform>all</platform>
+        <news>
+ROYFEL Plex Mod: royfel: Rev: fe4fc6b
+</news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>

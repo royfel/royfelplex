@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.royfelplex" name="ROYFEL Plex" version="0.1" provider-name="royfel">
+    <extension point="xbmc.addon.repository" name="ROYFEL Plex">
+            <info compressed="false">https://raw.githubusercontent.com/royfel/royfelplex/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/royfel/royfelplex/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/royfel/royfelplex/master/repo/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>ROYFEL Plex</summary>
+        <description>ROYFEL Plex Kodi Addon</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
